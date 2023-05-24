@@ -1,7 +1,7 @@
 package com.hostaway.core.annotations;
 
-import com.hostaway.core.extensions.SelenideExtension;
 import com.hostaway.core.extensions.InjectExtension;
+import com.hostaway.core.extensions.SelenideExtension;
 import org.junit.jupiter.api.extension.ExtendWith;
 
 import java.lang.annotation.ElementType;

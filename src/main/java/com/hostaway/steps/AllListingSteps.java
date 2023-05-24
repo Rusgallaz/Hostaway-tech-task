@@ -6,13 +6,11 @@ import com.hostaway.ui.pages.AllListingsPage;
 
 import java.time.Duration;
 import java.time.temporal.ChronoUnit;
-import java.util.concurrent.TimeUnit;
 
 import static com.codeborne.selenide.CollectionCondition.size;
 import static com.codeborne.selenide.Condition.visible;
 import static com.hostaway.constants.URLConstant.ALL_LISTING_PAGE_PATH;
 import static com.hostaway.utils.ThreadUtil.WAIT;
-import static org.awaitility.Awaitility.await;
 
 public class AllListingSteps {
 

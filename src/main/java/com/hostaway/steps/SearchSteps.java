@@ -1,8 +1,8 @@
 package com.hostaway.steps;
 
 import com.google.inject.Inject;
-import com.hostaway.ui.pages.SearchPage;
 import com.hostaway.steps.webdriver.UrlSteps;
+import com.hostaway.ui.pages.SearchPage;
 import io.qameta.allure.Step;
 
 import java.time.Duration;
@@ -11,7 +11,6 @@ import java.time.temporal.ChronoUnit;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Condition.visible;
-import static com.codeborne.selenide.Selenide.open;
 import static com.hostaway.constants.URLConstant.DATES_SEARCH_PAGE_PATH;
 import static com.hostaway.constants.URLConstant.DEFAULT_SEARCH_PAGE_PATH;
 
